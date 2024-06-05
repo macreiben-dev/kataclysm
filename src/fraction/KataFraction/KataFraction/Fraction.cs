@@ -16,6 +16,7 @@ public class Fraction
 
     public Fraction Add(Fraction right)
     {
-        return new Fraction(2);
+        return new Fraction(
+            Numerator + right.Numerator);
     }
 }
