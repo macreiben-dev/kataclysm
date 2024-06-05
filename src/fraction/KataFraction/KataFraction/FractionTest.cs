@@ -20,7 +20,7 @@ public class FractionTest
 
         var actual = left.Add(right);
         
-        Check.That(target.Numerator).IsEqualTo(2);
+        Check.That(actual.Numerator).IsEqualTo(2);
     }
 
     [Fact]
