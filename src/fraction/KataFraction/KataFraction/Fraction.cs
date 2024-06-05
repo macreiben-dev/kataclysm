@@ -6,9 +6,9 @@ public class Fraction
     {
         
     }
-    private Fraction(int i)
+    private Fraction(int numerator)
     {
-        Numerator = i;
+        Numerator = numerator;
     }
 
     public int Numerator { get; } = 0;
