@@ -12,8 +12,3 @@ public class UnitTest1
         Check.That(target.Numerator).IsEqualTo(0);
     }
 }
-
-public class Fraction
-{
-    public object Numerator { get; } = 0;
-}
