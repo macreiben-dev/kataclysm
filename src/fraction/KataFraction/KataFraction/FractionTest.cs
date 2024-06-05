@@ -24,7 +24,7 @@ public class FractionTest
     }
 
     [Fact]
-    public void GIVEN_fraction_THEN_numerator_is_one()
+    public void GIVEN_fraction_THEN_denominator_is_one()
     {
         var target = new Fraction();
         
