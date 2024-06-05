@@ -2,7 +2,7 @@ using NFluent;
 
 namespace KataFraction;
 
-public class UnitTest1
+public class FractionTest
 {
     [Fact]
     public void GIVEN_fraction_THEN_numerator_is_zero()
